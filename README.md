@@ -9,3 +9,5 @@ My work often bridges AI with hardware, including Raspberry Pi and embedded syst
 
 - **AI Engineer & Co-founder at [Youtive](https://youtiva.com/)** — leading AI initiatives, building solutions, and driving innovation for businesses.
 - **Top Rated Freelancer on [Upwork](https://www.upwork.com/freelancers/~018ce771972a601739)** — delivering high-quality AI and machine learning projects for global clients.
+
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=noora-ekramy&theme=transparent&border_radius=5)](https://git.io/streak-stats)
