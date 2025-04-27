@@ -21,3 +21,10 @@ My work often bridges AI with hardware, including Raspberry Pi and embedded syst
   <br><br>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=noora-ekramy&layout=compact&theme=transparent" alt="Top Languages" />
 </p>
+## 🏆 GitHub Trophies
+
+<p align="center">
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy.vercel.app/?username=noora-ekramy&theme=blue&no-bg=true&margin-w=15" alt="GitHub Trophies" />
+  </a>
+</p>
