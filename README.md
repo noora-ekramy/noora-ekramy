@@ -4,42 +4,61 @@
 
 I design and build AI systems end to end — turning an ambiguous business problem into a deployed service with retrieval, structured extraction, evaluation, and human review where it matters. Most of my work has been in financial operations, real estate, and legal document processing.
 
-## Currently building
+## What I build
+
+- **Document intelligence** — structured extraction from messy PDFs and statements
+- **Retrieval over private data** — RAG that has to survive real organizational corpora
+- **LLM orchestration with constrained writes** — the model may propose; the system decides what may commit
+- **Evaluation as infrastructure** — knowing a prompt change still works tomorrow
+- **Multi-channel delivery** — one brain behind chat, avatar, voice, and telephony
+
+## Selected systems
+
+Case studies live on [noraekramy.com](https://noraekramy.com). Client names are omitted; no measured results are claimed until they can be published.
+
+| System | Hard part | Authored commits* |
+|---|---|---|
+| [Conversational accounting](https://noraekramy.com/work/constrained-writes-accounting) | Model can propose ledger changes and commit none of them | **409 / 863** |
+| [Bank-statement extraction](https://noraekramy.com/work/structured-extraction-statements) | Every institution formats statements differently | part of the accounting system above |
+| [Multi-service buyer's agent](https://noraekramy.com/work/evaluating-a-multi-service-agent) | Evaluation harness so prompt changes do not silently break the journey | **724 / 797** |
+| [One brain, four channels](https://noraekramy.com/work/one-brain-four-channels) | Thin channel adapters over a single orchestrator | shared with the platforms above |
+
+\*Deduplicated by commit hash on the private product repositories (verified 2026-08-08). Numerator = commits I authored; denominator = all commits in that repo. These are **not** GitHub public contribution totals — most of this work is private.
+
+## Currently
 
 Co-Founder & AI Engineer at [Youtiva](https://youtiva.com/), where I own AI architecture and still write the systems myself.
 
-Most of my attention goes to the parts of an AI system that are not the model: how work is validated before it commits, how you detect that a prompt change broke behaviour somewhere unrelated, and where a human belongs in the loop.
+## Engineering activity
 
-## Selected work
+Public GitHub is only a slice of the work — most production systems live in private company and client repositories. The case studies and commit shares above are the better signal for depth. The cards below show ongoing public activity.
 
-Case studies are on [noraekramy.com/work](https://noraekramy.com/work). Client names are omitted and no measured results are claimed — each one covers the problem, the constraints that made it hard, and the decisions I would defend.
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=noora-ekramy&theme=radical&show_icons=true&hide_border=true&count_private=true&include_all_commits=true" alt="Nora's GitHub Stats" height="165" />
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=noora-ekramy&theme=radical&hide_border=true&border_radius=8" alt="GitHub Streak" height="165" />
+</p>
 
-- **[Letting a model do bookkeeping without letting it do damage](https://noraekramy.com/work/constrained-writes-accounting)** — a conversational accounting platform where the model can propose any change to the ledger and commit none of it.
-- **[Structured extraction from documents that have no fixed structure](https://noraekramy.com/work/structured-extraction-statements)** — reconciling bank statements when every institution formats them differently.
-- **[Knowing an AI agent still works after you change the prompt](https://noraekramy.com/work/evaluating-a-multi-service-agent)** — evaluation as infrastructure for a staged, multi-service agent.
-- **[One AI system, four channels](https://noraekramy.com/work/one-brain-four-channels)** — chat, video avatar, voice and telephony over a single orchestration layer.
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=noora-ekramy&layout=compact&theme=radical&hide_border=true&langs_count=6" alt="Top Languages" height="165" />
+</p>
 
-## Technical interests
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=noora-ekramy&theme=radical&hide_border=true&area=true" alt="Contribution activity graph" />
+</p>
 
-Constrained autonomy in LLM systems · retrieval over private organizational data · structured extraction from documents · evaluating AI systems when accuracy is not one number · the engineering standards a team needs when some of the code is written by agents.
+## Research
+
+**[NEUROPHONE: Real-Time Brain-Mobile Phone Interface](https://doi.org/10.3217/978-3-99161-014-4-085)** — 9th Graz Brain-Computer Interface Conference 2024. Fourth of five authors.
+
+A P300-based BCI for smartphone control through visual attention. I contributed to EEG data collection, signal preprocessing, and CNN training. Under 5-fold cross-validation the lightweight CNN reached **98% average classification accuracy** and **0.95 F1**, ahead of EEGNet, ChronoNet, DCRNN, and RNN baselines. End-to-end latency was not accurately measured in the paper.
 
 ## Writing
 
 - [A model may propose anything and commit nothing](https://noraekramy.com/writing/propose-anything-commit-nothing)
 - [When an agent should just be a workflow](https://noraekramy.com/writing/when-an-agent-should-be-a-workflow)
 
-## Research
+## Links
 
-**NEUROPHONE: Real-Time Brain-Mobile Phone Interface** — 9th Graz Brain-Computer Interface Conference 2024, Verlag der Technischen Universität Graz. Co-authored, fourth of five authors.
-
-A P300-based brain-computer interface letting people with motor disabilities operate a smartphone through visual attention alone. I contributed to EEG data collection, signal preprocessing and CNN training. The lightweight CNN reached 98% average classification accuracy and a 0.95 F1 score under 5-fold cross-validation, ahead of EEGNet, ChronoNet, DCRNN and RNN baselines.
-
-DOI: [10.3217/978-3-99161-014-4-085](https://doi.org/10.3217/978-3-99161-014-4-085)
-
-## Elsewhere
-
-[noraekramy.com](https://noraekramy.com) · [LinkedIn](https://www.linkedin.com/in/nora-ekramy-89b2681b4) · nora@youtiva.com
-
----
-
-*Most of my work lives in private client and company repositories, so this profile's public activity is not a good proxy for it. The case studies above are the better signal.*
+- Website: [noraekramy.com](https://noraekramy.com)
+- LinkedIn: [nora-ekramy](https://www.linkedin.com/in/nora-ekramy-89b2681b4)
+- Email: [nora@youtiva.com](mailto:nora@youtiva.com)
