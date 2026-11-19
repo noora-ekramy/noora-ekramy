@@ -29,22 +29,9 @@ Case studies live on [noraekramy.com](https://noraekramy.com). Client names are 
 
 Co-Founder & AI Engineer at [Youtiva](https://youtiva.com/), where I own AI architecture and still write the systems myself.
 
-## Engineering activity
+## A note on public activity
 
-Public GitHub is only a slice of the work — most production systems live in private company and client repositories. The case studies and commit shares above are the better signal for depth. The cards below show ongoing public activity.
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=noora-ekramy&theme=radical&show_icons=true&hide_border=true&count_private=true&include_all_commits=true" alt="Nora's GitHub Stats" height="165" />
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=noora-ekramy&theme=radical&hide_border=true&border_radius=8" alt="GitHub Streak" height="165" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=noora-ekramy&layout=compact&theme=radical&hide_border=true&langs_count=6" alt="Top Languages" height="165" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=noora-ekramy&theme=radical&hide_border=true&area=true" alt="Contribution activity graph" />
-</p>
+Public GitHub is only a slice of the work — most production systems live in private company and client repositories. The case studies and commit shares above are the better signal for depth.
 
 ## Research
 
